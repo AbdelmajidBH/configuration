@@ -1,0 +1,17 @@
+
+
+I create a new repository:
+
+git init
+echo "# MESSAGE" >> README.md
+git add README.md
+git commit -m "first commit"
+Then I want to push my commit to the empty remote repository created on github so I have to set remote.
+
+What is difference between using following commands ? :
+
+git remote add origin git@github.com:User/UserRepo.git
+git remote set-url origin git@github.com:User/UserRepo.git
+At the end I perform push:
+
+git push -u origin master
