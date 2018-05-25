@@ -15,3 +15,6 @@ git remote set-url origin git@github.com:User/UserRepo.git
 At the end I perform push:
 
 git push -u origin master
+
+
+git push origin master --force
